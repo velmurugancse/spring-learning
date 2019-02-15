@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
 <link rel="stylesheet" type="text/css"
@@ -14,4 +14,4 @@
 			value="Send" />
 	</form>
 </body>
-</html>
+</html> 

@@ -2,8 +2,8 @@
 <!doctype html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/resources/css/my-test.css">
+<%-- <link rel="stylesheet" type="text/css"
+	href="${pageContext.request.contextPath}/resources/css/my-test.css"> --%>
 <title>Student reg form</title>
 
 </head>
