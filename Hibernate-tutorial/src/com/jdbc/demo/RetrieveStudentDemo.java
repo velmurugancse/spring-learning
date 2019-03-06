@@ -24,7 +24,7 @@ public class RetrieveStudentDemo {
       session.save(tempStudent);
 //    session.save(tempStudent1);
 //    session.save(tempStudent2);
-      session.createQuery("update Student set email='lav@123'").executeUpdate();
+//      session.createQuery("update Student set email='lav@123'").executeUpdate();
     //  session.delete(tempStudent);
       session.getTransaction().commit();
 

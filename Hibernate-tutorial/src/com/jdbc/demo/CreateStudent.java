@@ -16,20 +16,24 @@ public class CreateStudent {
 		Session session = factory.getCurrentSession();
 		try {
 			// create an object
-			Student student = new Student("somasundaram", "B", "somasundaram@gmail.com");
-			Student student2 = new Student("raja", "B", "rajab@gmail.com");
+			Student s = new Student("murugan", "v", "murugan@gmail.com");
+			Student student2 = new Student("murugan", "a", "ucetmurugan@gmail.com");
+//			student2.setId(19);
 
 			// begin a transaction
 			session.beginTransaction();
 			// save an obj
-			session.save(student);
+			session.save(s);
 //			int id = (Integer) session.save(student2);
-			session.save(student2);
+//			session.save(student2);
 //			System.out.println(id);
 			// commit transaction
-			System.out.println("done");
 			session.getTransaction().commit();
+
+			System.out.println("done");
 		} finally {
+			session.close();
+
 			factory.close();
 		}
 	}

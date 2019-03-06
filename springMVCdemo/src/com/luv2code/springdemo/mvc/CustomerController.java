@@ -36,4 +36,12 @@ public class CustomerController {
 			return "customer-confirmation";
 		}
 	}
+	
+	@RequestMapping("/list")
+	public String listCustomers(Model theModel) {
+		
+		return "list-customers";
+	}
+	
+	
 }

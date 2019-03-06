@@ -8,12 +8,12 @@
 
 		<!-- JDBC Database connection settings -->
 		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-		<property name="connection.url">jdbc:mysql://localhost:3306/student_tracker?useSSL=false</property>
-		<property name="connection.username">Studentuser</property>
-		<property name="connection.password">Student@123</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/hb_student_tracker?useSSL=false</property>
+		<property name="connection.username">hbstudent</property>
+		<property name="connection.password">hbstudent</property>
 
 		<!-- JDBC connection pool settings ... using built-in test pool -->
-		<property name="connection.pool_size">1</property>
+		<property name="connection.pool_size">10</property>
 
 		<!-- Select our SQL dialect -->
 		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
