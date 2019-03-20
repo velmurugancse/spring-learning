@@ -1,4 +1,0 @@
-# spring learning
-/**
-Author velmurugan
-**/
