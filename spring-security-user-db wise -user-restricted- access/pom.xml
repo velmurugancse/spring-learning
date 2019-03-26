@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.luv2code</groupId>
-	<artifactId>spring-security-User-Restricted-Access</artifactId>
+	<artifactId>spring-security-User-Restricted-Access-by-DB</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
 
-	<name>spring-security-User-Restricted-Access</name>
+	<name>spring-security-User-Restricted-Access-by-DB</name>
 
 	<properties>
 		<springframework.version>5.0.2.RELEASE</springframework.version>
